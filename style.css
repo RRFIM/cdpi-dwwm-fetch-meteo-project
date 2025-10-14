@@ -1,3 +1,21 @@
 body{
     margin : 0px;
+    background: #58b6db;
+    background: linear-gradient(90deg, rgba(88, 182, 219, 1) 0%, rgba(87, 180, 199, 1) 32%, rgba(88, 83, 237, 1) 100%);
 }
+
+.TopFront
+{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.LocationFinder
+{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
