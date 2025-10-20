@@ -1,4 +1,5 @@
 body{
+
     margin : 0px;
     background: #58b6db;
     background: linear-gradient(90deg, rgba(88, 182, 219, 1) 0%, rgba(87, 180, 199, 1) 32%, rgba(88, 83, 237, 1) 100%);
@@ -11,11 +12,38 @@ body{
     align-items: center;
 }
 
+.Front
+{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 34px;
+}
+
+.LocationInfo
+{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 23px;
+    .LocationName
+    {
+        margin : 0px;
+    }
+    .LocationTemp
+    {
+        margin : 0px;
+    }
+}
+
 .LocationFinder
 {
     display: flex;
     justify-content: center;
     align-items: center;
-
+    h2
+    {
+        margin : 0px;
+    }
 }
 

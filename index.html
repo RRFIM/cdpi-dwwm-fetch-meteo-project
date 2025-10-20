@@ -13,18 +13,21 @@
             <i class="fa-solid fa-magnifying-glass"></i>
         </div>
         
-        <div class="LocationCoordinates">
-            <input class="LocationLatiInput" type="text" placeholder="latitude.."></input>
-            <input class="LocationLongInput" type="text" placeholder="longitude.."></input>
+        <form class="LocationCoordinates locationForm">
+            <input name="lat" class="LocationLatiInput" type="text" placeholder="latitude..">
+            <input name="long" class="LocationLongInput" type="text" placeholder="longitude..">
+            <button>Search</button>
         </div>
     </div>
     </head>
 <body>
     <main>
         <div class="Front">
-            <h1 class="LocationName"></h1>
-            <h2 class="LocationTemp"></h2>
-
+            <div class="LocationInfo">
+                <h1 class="LocationName">Tls</h1>
+                <i class="fa-solid fa-cloud-sun"></i>
+                <h2 class="LocationTemp"></h2>
+            </div>
             <div class="LocationFinder">
                 <h2>Chez moi?</h2> 
                 <i class="fa-solid fa-magnifying-glass-location"></i>
